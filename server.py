@@ -67,5 +67,4 @@ def detect_ai():
 
 
 # Run the Flask app
-if __name__ == '__main__':
-    app.run(port=3000)
+app.run(port=3000)
