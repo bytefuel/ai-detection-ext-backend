@@ -1,1 +1,1 @@
-web: gunicorn server:server --bind 0.0.0.0:$PORT --workers 1 --threads 2
+web: python3 server.py
